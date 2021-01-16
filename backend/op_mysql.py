@@ -10,7 +10,7 @@ class OPMYSQL():
 
         # 初始化连接对象
         # 打开数据库连接
-        self.db = pymysql.connect("localhost", "root", "Hua@124797", "xb_ops")
+        self.db = pymysql.connect("localhost", "root", "123456", "xb_ops")
         # 使用 cursor() 方法创建一个游标对象 cursor
         self.cursor = self.db.cursor()
 
